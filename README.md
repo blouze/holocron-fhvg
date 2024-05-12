@@ -1,1 +1,3 @@
-# Fun Hobby Video Game W
+# Fun Hobby Video Game Wiki
+
+It's a terrible name!
