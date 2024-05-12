@@ -9,6 +9,7 @@ An example of an MDX block is shown below:
 ## What can you do with MDX?
 
 MDX is useful to create more rich websites from your Markdown documents, for example you can add
+
 - Divide content in numbered steps
 - Show links in cards
 - Add more interactive components
@@ -32,13 +33,17 @@ This is the third step
 
 The MDX code above will render the following WYSIWYG block in Holocron:
 
-<Holocron.Steps>
-## Step 1
-This is the first step
+<Holocron.Steps cols={2}>
+    ## Step 1
 
-## Step 2
-This is the second step
+    This is the first step
 
-## Step 3
-This is the third step
+    ## Step 2
+
+    This is the second step
+
+    ## Step 3
+
+    This is the third step
 </Holocron.Steps>
+
